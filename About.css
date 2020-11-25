@@ -1,0 +1,42 @@
+*{
+    background-color: #222831;
+    color: #ffff;
+    font-family: 'Ribeye';
+}
+.about{
+    left: 100px;
+    position:absolute;
+    font-style: Ribeye;
+    font-size: 27px;
+    text-align: justify;
+    width: 700px;
+    height: 502px;
+    color:#FBD46D ;
+}
+.image{
+    position: absolute;
+    left: 800px;
+    right: 0px;
+    
+}
+.image2{
+    position: absolute;
+    left: 800px;
+    right: 0px;
+}
+.content{
+    position: absolute;
+    left: 770px;
+    right: 0px;
+    padding: 30px;
+}
+.community{
+    position: absolute;
+    left: 0px;
+    width: 500px;
+}
+.about .down{
+    position:absolute;
+    right: -300px;
+    width: 500px;
+}
