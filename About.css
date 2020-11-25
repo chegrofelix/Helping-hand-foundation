@@ -1,7 +1,7 @@
 *{
     background-color: #222831;
     color: #ffff;
-    font-family: 'Ribeye';
+    font-family: 'Roboto';
 }
 .about{
     left: 100px;
@@ -39,4 +39,10 @@
     position:absolute;
     right: -300px;
     width: 500px;
+}
+.our{
+    font-family:'Roboto' sans-serif;
+}
+img{
+    border-radius: 500px;
 }
