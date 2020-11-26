@@ -41,7 +41,3 @@ header {
     flex-direction: row;
     word-spacing: 10px;
 }
-
-.login-container {
-    display: inline;
-}
