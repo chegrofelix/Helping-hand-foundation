@@ -37,8 +37,11 @@ header {
     background-color: lightgreen;
     margin-top: 0%;
     position: relative;
+    padding: 40px;
+    flex-direction: row;
+    word-spacing: 10px;
 }
 
-header>img {
-    align-items: left;
+.login-container {
+    display: inline;
 }

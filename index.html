@@ -10,51 +10,29 @@
 
 <body>
     <header>
-        <button onclick="document.getElementById('id10'.style.display='blaock'">Donate</button>
-        </a>
         <nav>
-            <a href="home.html" target="_self">Home</a>
-            <a href="About.html" target="_self">About</a>
-            <a href="partnerships.html" target="_self">Partnerships</a>
-            <a href="contact.html" target="_self">Contacts</a>
+            <a href="#home.html" target="_self">Home</a>
+            <a href="#About.html" target="_self">About</a>
+            <a href="#partnerships.html" target="_self">Partnerships</a>
+            <a href="#contact.html" target="_self">Contacts</a>
+            <a href="donate"><button onclick="document.getElementById('id10'.style.display='blaock'">Donate</button></a>
+
         </nav>
-        <img src="./images/logo.jpeg" alt="Logo">
+        <div class="login-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="psw">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
     </header>
-    <h1>Helping hand foundation.</h1>
+    <h1>Donation and aid application.</h1>
     <p>We are a charity organisation looking to support families that live in slum areas.</p>
+
     <p>To access our aid one needs to fill the form below which will be reviewed by our board to determine eligibility.</p>
     <a><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKGHsziBa1BJf5-HcqMWng9vafPaFMonAbw-gA4P0OUyYHFw/viewform?embedded=true" width="640" height="1595" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></a>
-    <button onclick="document.getElementById('id01').style.display='block'">Login</button>
 
-    <!-- The Modal -->
-    <div id="id01" class="modal">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
-        <!-- Modal Content -->
-        <form class="modal-content animate" action="/action_page.php">
-            <div class="imgcontainer">
-                <img src="img_avatar2.png" alt="Avatar" class="avatar">
-            </div>
-
-            <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
-                <button type="submit">Login</button>
-                <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-        </form>
-    </div>
 </body>
 
 </html>

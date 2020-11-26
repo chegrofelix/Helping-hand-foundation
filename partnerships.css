@@ -1,37 +1,57 @@
-*{
-    background-color:rgb(228, 225, 211);
+* {
+    background-color: rgb(228, 225, 211);
 }
-header{
+
+header {
     text-align: center;
     font-size: 70px;
-    color:red;
-    font-style:roboto;
+    color: red;
+    font-style: roboto;
 }
-p{
+
+p {
     font-style: roboto;
     font-size: 19px;
-    text-align:left;
+    text-align: left;
 }
-.partners{
-border-style: dashed;
-border-width: 1px;
-border-radius: 20px;
+
+.partners {
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 20px;
 }
-h1{
-font-style: roboto;
-font-size:20px;
-text-align: center;
-color:red;
+
+h1 {
+    font-style: roboto;
+    font-size: 20px;
+    text-align: center;
+    color: red;
 }
-.first{
-    display:block;
+
+.first {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    width:50%;
+    width: 50%;
 }
-footer{
-    color:red;
-    font-style:italic;
+
+footer {
+    color: red;
+    font-style: italic;
     font-size: 30px;
     text-align: center;
+}
+
+nav>a {
+    padding: 10px;
+    margin-top: auto;
+    margin-right: 0%;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+nav>a:hover {
+    background-color: blue;
+    color: white;
 }
