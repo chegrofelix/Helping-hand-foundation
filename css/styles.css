@@ -14,8 +14,7 @@ nav>a {
 }
 
 nav>a:hover {
-    background-color: rgb(233, 30, 80);
-    color: white;
+    color: maroon;
 }
 
 button {
