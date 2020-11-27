@@ -32,26 +32,20 @@ h1 {
     margin-right: 0%;
 }
 
-nav>a {
-    padding: 10px;
-    margin-top: auto;
-    margin-right: 0%;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'roboto';
+footer {
+    background-color: blue;
+    overflow: hidden;
+    align-items: center;
 }
 
-nav>a:hover {
-    color: maroon;
+.para {
+    color: white;
+    margin-left: 50%;
+    box-sizing: border-box;
+    border-radius: 10%;
 }
 
-nav>a>button:hover {
-    color: red;
-    background-color: yellow;
-    box-shadow: 10px 10px 8px 10px #888888;
-}
-
-button {
-    font-size: 40px;
-    margin-right: auto;
+.paro {
+    margin-left: 30%;
+    color: white;
 }
