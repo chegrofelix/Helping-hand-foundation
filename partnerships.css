@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(228, 225, 211);
+    background-color: rgb(22, 188, 176)
 }
 
 header {
@@ -22,8 +22,8 @@ p {
 }
 
 h1 {
-    font-style: roboto;
-    font-size: 20px;
+    font-style: Roboto;
+    font-size: 25px;
     text-align: center;
     color: red;
 }
@@ -38,30 +38,11 @@ h1 {
 footer {
     color: red;
     font-style: italic;
-    font-size: 30px;
+    font-size: 33px;
     text-align: center;
 }
 
-nav>a {
-    padding: 10px;
-    margin-top: auto;
-    margin-right: 0%;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'roboto';
-}
-
-nav>a:hover {
-    color: maroon;
-}
-
-nav>a>button:hover {
-    color: red;
-    background-color: yellow;
-    box-shadow: 10px 10px 8px 10px #888888;
-}
-
-button {
-    font-size: 40px;
-    margin-right: auto;
+h2 {
+    font-size: 17px;
+    font-style: roboto;
 }
