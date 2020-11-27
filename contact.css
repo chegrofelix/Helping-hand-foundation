@@ -10,28 +10,41 @@
 h2 {
     color: navy;
     text-align: center;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 
 body {
-    background-image: url(/pictures/img2.png);
-    background-size: cover;
+    background-image: url(/pictures/d1.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.wrapper {
-    position: absolute;
-    top: 50%;
+    background-size: cover;
     width: 100%;
-    padding: 0 20px;
+    height: 100%;
+    font-size: 16px;
 }
 
-.form {
+
+/*img{
+  float: left;
+.wrapper{
+    position:absolute;
+    top:20%;
+    left: 50%;
+    width: 70%;
+    padding:0 20px;
+}*/
+
+input[type=submit]:hover {
+    background-color: #4565a0;
+}
+
+form {
     max-width: 550px;
     margin: 0 auto;
     padding: 30px;
     display: flex;
-    background-color: #e8e8e8;
+    border-radius: 5px;
+    border-color: lightgray;
 }
 
 .input {
@@ -40,6 +53,7 @@ body {
     margin-right: 4%;
     width: 48%;
     font-weight: 700px;
+    text-transform: capitalize;
 }
 
 .msg textarea {
@@ -47,41 +61,35 @@ body {
     height: 150px;
 }
 
-.input,
-.msg textarea {
-    margin: 10px 0;
-    opacity: 0.6;
-    border-bottom: 2px solid black;
-    padding: 10px;
+input[type=text],
+select,
+textarea {
     width: 100%;
-    color: black;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-.button {
+.btn {
+    margin: 0 30px;
+    background-color: navy;
     color: yellow;
+    padding: 10px 0;
     text-align: center;
-    padding: 10px;
-    cursor: pointer;
     text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-nav>a {
-    padding: 10px;
-    margin-top: auto;
-    margin-right: 0%;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'roboto';
+.items #msg {
+    height: 100px;
 }
 
-nav>a:hover {
-    color: maroon;
-}
-
-nav>a>button:hover {
-    color: red;
-    background-color: yellow;
-    box-shadow: 10px 10px 8px 10px #888888;
+footer {
+    display: flex;
 }
 
 button {
