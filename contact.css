@@ -94,3 +94,31 @@ button {
     font-size: 40px;
     margin-right: auto;
 }
+
+footer {
+    background-color: blue;
+    overflow: hidden;
+    align-items: center;
+}
+
+.para {
+    color: white;
+    margin-left: 50%;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+.paro {
+    margin-left: 30%;
+    color: white;
+}
+
+nav>a>button:hover {
+    color: red;
+    background-color: yellow;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+
+nav>a:hover {
+    color: maroon;
+}
