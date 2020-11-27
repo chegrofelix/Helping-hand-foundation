@@ -2,6 +2,7 @@
     background-color: #222831;
     color: #ffff;
     font-family: 'Roboto';
+    font-size: 20px;
 }
 
 .about {
@@ -10,7 +11,7 @@
     font-style: Ribeye;
     font-size: 27px;
     text-align: justify;
-    width: 700px;
+    width: 750px;
     height: 502px;
     color: #FBD46D;
 }
@@ -76,4 +77,25 @@ nav>a>button:hover {
 button {
     font-size: 40px;
     margin-right: auto;
+}
+
+#pictuers {
+    position: absolute;
+}
+
+section {
+    left: 0px;
+    right: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ighalo {
+    float: right;
+}
+
+.Abdi {
+    padding: 62px;
 }
